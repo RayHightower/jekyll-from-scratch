@@ -3,7 +3,7 @@ layout: default
 ---
 ### Hello World
 
-This Jekyll site was created from scratch w/o the benefit of `$ jekyll new`. What is the benefit of doing things this way? This is how we learn Jekyll intimately!
+This Jekyll site was created from scratch w/o using `$ jekyll new`. What is the benefit of doing things this way? Answer: By building a Jekyll site from scratch, we get to learn Jekyll intimately!
 
 ``` bash
 $ How about a phony code snippet?
