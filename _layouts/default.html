@@ -7,17 +7,19 @@
 </head>
 <body>
 
-<!-- {% include foundation.html %} -->
+<header>
+  <h1>Planets of the Universe</h1>
+    {% include nav.html navclass='nav-top' %}
+</header>
 
 site.baseurl = {{site.baseurl}}
 
-<header>
-  <strong>Greetings to the Universe!</strong>
-</header>
-
-{% include nav.html %}
-
 {{content}}
+
+<footer>
+    {% include nav.html navclass='nav-bottom' %}
+    <p>&copy; 2015 Planets R Us</p>
+</footer>
 
 </body>
 </html>
